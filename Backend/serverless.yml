@@ -47,9 +47,10 @@ functions:
   readAll:
     handler: handler.readAll
     events:
-      -http:
-        method: GET
-        path: todos
+      - http:
+          method: GET
+          path: todos
+
 
 
 
