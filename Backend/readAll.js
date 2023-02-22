@@ -6,11 +6,15 @@ module.exports = async(event,callback)=> {
     const params= {
         TableName: 'todos'
     }
-    return dynamodb.scan(params, (error, data) => {
+    return await dynamodb.scan(params, (error, data) => {
         if (error) {
+            console.log(error)
             callback(error);
         }
-        callback(error, data.Items);
-    })
+        else{
+            console.log(data.Items)
+            callback(error, data.Items);
+        }
+    }).promise()
 
 }

@@ -1,5 +1,12 @@
-GET https://rtphcpdko1.execute-api.us-east-1.amazonaws.com/dev/todos
 
-POST https://rtphcpdko1.execute-api.us-east-1.amazonaws.com/dev/todos
+POST  https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos
+Content-Type: application/json
+
+{
+  "id": "87690",
+  "body": "new format"
+}
+
+
 
 
