@@ -30,3 +30,16 @@ module.exports.readAll = async (event, context, callback) => {
   const res= await readAll_todos(event,callback)
   return { statusCode: 200, body: JSON.stringify(res) }
 }
+module.exports.delete = async (event) => {
+    const taskToBeRemovedName = event.body
+    await db
+        .delete({
+            TableName:'todos',
+            Key: {
+                id: taskToBeRemovedName,
+            },
+        })
+        .promise()
+
+    return { statusCode: 200 }
+}

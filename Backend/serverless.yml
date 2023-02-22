@@ -48,8 +48,12 @@ functions:
       - httpApi:
           method: GET
           path: /todos
-
-
+  deleteTodo:
+    handler: handler.delete
+    events:
+      - httpApi:
+          path: /todos/{id}
+          method: DELETE
 
 
 # you can add CloudFormation resource templates here

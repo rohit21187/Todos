@@ -1,11 +1,11 @@
+GET https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos/
 
-POST  https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos
-Content-Type: application/json
+#
 
-{
-  "id": "87690",
-  "body": "new format"
-}
+#POST  https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos
+#Content-Type: application/json
+#
+#{"body":"new"}
 
 
 
