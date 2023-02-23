@@ -52,7 +52,7 @@ functions:
     handler: handler.delete
     events:
       - httpApi:
-          path: /todos/{id}
+          path: /todos
           method: DELETE
 
 

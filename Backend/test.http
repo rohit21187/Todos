@@ -1,11 +1,13 @@
-GET https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos/
+GET https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos
 
-#
+DELETE https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos?id=test this
 
-#POST  https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos
-#Content-Type: application/json
-#
-#{"body":"new"}
+
+POST  https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos
+Content-Type: application/json
+
+{"task":"test this"}
+
 
 
 
