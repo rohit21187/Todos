@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1319.0",
+    "node": "^19.6.1",
     "uuid": "^9.0.0"
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {}
 }
