@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="express" type="javaScript">
+    <properties>
+      <option name="frameworkName" value="Node.js Core Modules" />
+    </properties>
+    <CLASSES />
+    <DOCUMENTATION>
+      <root url="http://nodejs.org/api" />
+    </DOCUMENTATION>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
