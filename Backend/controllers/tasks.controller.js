@@ -1,7 +1,6 @@
-'use strict';
-const { DynamoDB } = require("aws-sdk")
+'use strict'
+const {DynamoDB}  = require("aws-sdk")
 const db = new DynamoDB.DocumentClient()
-
 module.exports.create = async (req,res) => {
     const obj= JSON.parse(req.body)
     const data = {
