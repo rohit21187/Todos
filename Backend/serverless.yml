@@ -11,6 +11,7 @@ provider:
   name: aws
   runtime: nodejs18.x
   deploymentMethod: direct
+  architecture: arm64
 
 
   # you can overwrite defaults here

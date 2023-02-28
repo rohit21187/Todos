@@ -22,7 +22,8 @@ module.exports.create = async (event) => {
 
 module.exports.readAll = async (event, context, callback) => {
   const res= await readAll_todos(event,callback)
-  return { statusCode: 200, body: JSON.stringify(res) }
+    const res1={tasks:res.Items}
+  return { statusCode: 200, body: JSON.stringify(res1) }
 }
 
 

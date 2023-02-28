@@ -1,12 +1,12 @@
-GET https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos
-
-DELETE https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos?id=test this
+#GET https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos
+#
+#DELETE https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos?id=test this
 
 
 POST  https://7aklxxehvd.execute-api.us-east-1.amazonaws.com/todos
 Content-Type: application/json
 
-{"task":"test this"}
+{"task":"meet at 11 15"}
 
 
 
