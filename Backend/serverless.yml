@@ -37,21 +37,16 @@ provider:
 # you can add packaging information here
 
 functions:
-  create:
-    handler: handler.create
+  expressServer:
+    name: todos-express-server-${sls:stage}
+    handler: lambda.handler
     events:
       - httpApi:
           method: POST
           path: /todos
-  readAll:
-    handler: handler.readAll
-    events:
       - httpApi:
           method: GET
           path: /todos
-  deleteTodo:
-    handler: handler.delete
-    events:
       - httpApi:
           path: /todos
           method: DELETE
